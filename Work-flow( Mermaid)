@@ -1,0 +1,44 @@
+flowchart TD
+    A["👨‍🎓 Student Opens App"] --> B["📝 Enter Name, Subject, Goals"]
+    B --> C["📚 Upload Study Resources<br/>PDF / Notes / Text"]
+    C --> D["📖 Extract and Organize Content"]
+    D --> E["🧠 Generate Initial Assessment Quiz"]
+    E --> F["✍️ Student Answers Quiz"]
+    F --> G["📊 Analyze Quiz Performance"]
+
+    G --> H["Calculate Score"]
+    G --> I["Identify Strengths"]
+    G --> J["Detect Weak Concepts"]
+
+    H --> K["👤 Create Learner Profile"]
+    I --> K
+    J --> K
+
+    K --> L["📈 Generate Personalized Dashboard"]
+
+    L --> M["🎯 Select Weakest Concept"]
+    M --> N["📘 Create Small Learning Module"]
+
+    N --> O["WHAT: Explain the Concept"]
+    O --> P["WHY: Explain Its Importance"]
+    P --> Q["HOW: Explain with Examples"]
+
+    Q --> R["✍️ Generate Descriptive Question"]
+    R --> S["💡 Show Explanation and Model Answer"]
+    S --> T["🧑‍🎓 Student Attempts Question"]
+    T --> U["🤖 AI Evaluates Answer"]
+
+    U --> V["Give Personalized Feedback"]
+    V --> W["Update Learner Profile"]
+    W --> X{"Has the Student Mastered<br/>the Concept?"}
+
+    X -- "No" --> Y["🔄 Explain Differently<br/>and Give Guided Practice"]
+    Y --> T
+
+    X -- "Yes" --> Z{"Are Other Weak Topics Left?"}
+    Z -- "Yes" --> M
+    Z -- "No" --> AA["🎉 Recommend Next Learning Level"]
+
+    AA --> AB["📊 Update Dashboard and Progress"]
+    AB --> AC["📝 Reassessment"]
+    AC --> G
