@@ -1,0 +1,77 @@
+{
+  "Omkar": {
+    "attempts": [
+      {
+        "date": "2026-10-09 11:54",
+        "score": 0,
+        "total": 5,
+        "topic_scores": {
+          "Loops": 0,
+          "Conditions": 0,
+          "Functions": 0,
+          "Variables": 0
+        },
+        "answers": [
+          {
+            "question": "How many times does this loop run: for i in range(3)?",
+            "topic": "Loops",
+            "selected": 2,
+            "correct": 1,
+            "is_correct": false,
+            "explanation": "range(3) produces 0, 1, and 2, so the loop runs three times."
+          },
+          {
+            "question": "Which keyword runs code only when a condition is true?",
+            "topic": "Conditions",
+            "selected": 2,
+            "correct": 1,
+            "is_correct": false,
+            "explanation": "The if statement checks a condition and runs its block when the condition is true."
+          },
+          {
+            "question": "Why are loops useful?",
+            "topic": "Loops",
+            "selected": 2,
+            "correct": 1,
+            "is_correct": false,
+            "explanation": "Loops repeat a block of code, which reduces repeated writing."
+          },
+          {
+            "question": "What is the main purpose of a function?",
+            "topic": "Functions",
+            "selected": 1,
+            "correct": 0,
+            "is_correct": false,
+            "explanation": "A function groups instructions that can be called when needed."
+          },
+          {
+            "question": "What is a variable in Python?",
+            "topic": "Variables",
+            "selected": 2,
+            "correct": 0,
+            "is_correct": false,
+            "explanation": "A variable is a name that refers to a value, such as age = 19."
+          }
+        ]
+      }
+    ],
+    "mastery": {
+      "Loops": 0,
+      "Conditions": 0,
+      "Functions": 0,
+      "Variables": 0
+    },
+    "modules": {},
+    "reason": "Prepare for an exam",
+    "goal": "Understand concepts",
+    "created": "2026-10-09T11:51:48.092072"
+  },
+  "vedant": {
+    "attempts": [],
+    "mastery": {},
+    "modules": {},
+    "reason": "Build job skills",
+    "goal": "Apply knowledge in projects",
+    "created": "2026-10-09T11:55:46.969219"
+  }
+}
